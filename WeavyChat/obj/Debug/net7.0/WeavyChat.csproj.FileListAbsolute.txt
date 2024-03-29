@@ -33,3 +33,4 @@ C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.
 C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\WeavyChat.pdb
 C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\WeavyChat.genruntimeconfig.cache
 C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\ref\WeavyChat.dll
+C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\WeavyChat.sourcelink.json
