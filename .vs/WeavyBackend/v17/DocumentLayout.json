@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\entities\\mysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\entities\\mysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\entities\\tokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\entities\\tokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\utils\\json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\utils\\json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "WeavyChat\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Entities\\User.cs",
+              "RelativeToolTip": "WeavyChat\\Entities\\User.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAlwBIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T20:07:36.336Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MySettings.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Entities\\MySettings.cs",
+              "RelativeDocumentMoniker": "WeavyChat\\Entities\\MySettings.cs",
+              "ToolTip": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Entities\\MySettings.cs",
+              "RelativeToolTip": "WeavyChat\\Entities\\MySettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:08:30.416Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "WeavyChat\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "WeavyChat\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T03:05:27.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tokens.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Entities\\Tokens.cs",
+              "RelativeDocumentMoniker": "WeavyChat\\Entities\\Tokens.cs",
+              "ToolTip": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Entities\\Tokens.cs",
+              "RelativeToolTip": "WeavyChat\\Entities\\Tokens.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAqwJcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T03:57:12.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Json.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Utils\\Json.cs",
+              "RelativeDocumentMoniker": "WeavyChat\\Utils\\Json.cs",
+              "ToolTip": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Utils\\Json.cs",
+              "RelativeToolTip": "WeavyChat\\Utils\\Json.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T01:10:16.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\appsettings.json",
+              "RelativeDocumentMoniker": "WeavyChat\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\appsettings.json",
+              "RelativeToolTip": "WeavyChat\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-25T17:10:01.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Program.cs",
+              "RelativeDocumentMoniker": "WeavyChat\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Program.cs",
+              "RelativeToolTip": "WeavyChat\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAhwC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T02:01:02.089Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
