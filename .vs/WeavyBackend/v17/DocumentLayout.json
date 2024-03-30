@@ -11,24 +11,24 @@
       "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\entities\\tokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\utils\\json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\utils\\json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\entities\\mysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\entities\\mysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\utils\\json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\utils\\json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|c:\\users\\lenovo4\\source\\repos\\mysourcenow\\weavybackend\\weavychat\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F5A765-F928-4CC9-88C9-EF02BC159A40}|WeavyChat\\WeavyChat.csproj|solutionrelative:weavychat\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,16 +42,17 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Entities\\User.cs",
               "RelativeDocumentMoniker": "WeavyChat\\Entities\\User.cs",
               "ToolTip": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Entities\\User.cs",
               "RelativeToolTip": "WeavyChat\\Entities\\User.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAlwBIAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T20:07:36.336Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,7 +65,8 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-22T15:08:30.416Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -86,7 +88,7 @@
               "RelativeDocumentMoniker": "WeavyChat\\Controllers\\AuthenticationController.cs",
               "ToolTip": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "WeavyChat\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAYwHIAAABVAAAA",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAuwLEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-26T03:05:27.312Z",
               "EditorCaption": ""
@@ -99,22 +101,23 @@
               "RelativeDocumentMoniker": "WeavyChat\\Entities\\Tokens.cs",
               "ToolTip": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Entities\\Tokens.cs",
               "RelativeToolTip": "WeavyChat\\Entities\\Tokens.cs",
-              "ViewState": "AQIAANEAAAAAAAAAAADwv+kAAAAcAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAACwJ8AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-22T03:57:12.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Json.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Utils\\Json.cs",
               "RelativeDocumentMoniker": "WeavyChat\\Utils\\Json.cs",
               "ToolTip": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Utils\\Json.cs",
               "RelativeToolTip": "WeavyChat\\Utils\\Json.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T01:10:16.247Z"
+              "WhenOpened": "2024-03-28T01:10:16.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -126,11 +129,12 @@
               "RelativeToolTip": "WeavyChat\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-25T17:10:01.95Z"
+              "WhenOpened": "2024-03-25T17:10:01.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\Program.cs",
               "RelativeDocumentMoniker": "WeavyChat\\Program.cs",
@@ -138,11 +142,8 @@
               "RelativeToolTip": "WeavyChat\\Program.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAhwC0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T02:01:02.089Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-03-22T02:01:02.089Z",
+              "EditorCaption": ""
             }
           ]
         }

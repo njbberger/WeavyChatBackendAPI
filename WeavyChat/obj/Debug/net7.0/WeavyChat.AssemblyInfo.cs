@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeavyChat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7d9f576fe14eddac36ee09c3f616ed59e4eb1a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2b319eec9b7d604c9cccce47b5c882c0841d2e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeavyChat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeavyChat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

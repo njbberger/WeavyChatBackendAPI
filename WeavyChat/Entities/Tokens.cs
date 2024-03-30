@@ -111,9 +111,7 @@ namespace WeavyChat.Entities
                     //    userAccessTokenList = await JsonSerializer.DeserializeAsync<List<UserAccessToken>>(accessTokensJsonFile);
                     //}
 
-                    //Set new token values for the validation of initial & final time
-                    newUserAccessToken.TimestampInicioValidezToken = DateTime.Now;
-                    newUserAccessToken.TimestampFinValidezToken = newUserAccessToken.TimestampInicioValidezToken.AddSeconds(3600);
+                    //Set new token expiration status
                     newUserAccessToken.ExpirationStatus = ExpirationStatus.Active;
 
                     //***Find specific token to UPDATE                    
@@ -154,7 +152,7 @@ namespace WeavyChat.Entities
                         return true;
                     }                    
                 }
-                else //INSERT token (userAccessToken.ExpirationStatus = NONE)
+                else if(newUserAccessToken.ExpirationStatus == ExpirationStatus.NotExists) //INSERT token (userAccessToken.ExpirationStatus = NotExists)
                 {
                     //***Read entire list of tokens
                     //Read file to string
@@ -168,13 +166,10 @@ namespace WeavyChat.Entities
                     //    userAccessTokenLists = await JsonSerializer.DeserializeAsync<List<UserAccessToken>>(accessTokensJsonFile);
                     //}
 
-                    //Set token validation initial & final time
-                    newUserAccessToken.TimestampInicioValidezToken = DateTime.Now;
-                    newUserAccessToken.TimestampFinValidezToken = newUserAccessToken.TimestampInicioValidezToken.AddSeconds(3600);
+                    //Set token expiration status
                     newUserAccessToken.ExpirationStatus = ExpirationStatus.Active;
 
-                    //ADD NEW TOKEN
-                    //***Find specific token to UPDATE                    
+                    //ADD NEW TOKEN                 
                     if (userAccessTokenList != null && userAccessTokenList.Any())
                     {                        
                         userAccessTokenList.Add(newUserAccessToken);
@@ -186,7 +181,7 @@ namespace WeavyChat.Entities
                     }
 
                     //open file stream
-                    using (StreamWriter file = File.AppendText(@"C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\ACTIVETOKENS.json"))
+                    using (StreamWriter file = File.CreateText(@"C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\ACTIVETOKENS.json"))
                     {                        
                         //serialize object directly into file stream
                         //Newtonsoft
@@ -205,7 +200,7 @@ namespace WeavyChat.Entities
                         return true;
                     }
                 }
-                
+                else { throw new Exception("Error en el estado del token NO valido"); }                
             }
             catch (Exception e)
             {
@@ -220,7 +215,7 @@ namespace WeavyChat.Entities
         // Make sure all class attributes have relevant getter setter.        
         public string Uid { get; set; } = string.Empty;
         public string Access_token { get; set; } = string.Empty;
-        public ExpirationStatus ExpirationStatus { get; set; } = ExpirationStatus.None;
+        public ExpirationStatus ExpirationStatus { get; set; } = ExpirationStatus.NotExists;
         public DateTime TimestampInicioValidezToken { get; set; } = DateTime.MinValue;
         public DateTime TimestampFinValidezToken { get; set; } = DateTime.MinValue;
     }
@@ -238,7 +233,7 @@ namespace WeavyChat.Entities
 
     public enum ExpirationStatus
     {
-        None = 0,
+        NotExists = 0,
         Active = 1,
         Inactive = 2,
     }

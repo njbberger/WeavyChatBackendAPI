@@ -1,0 +1,16 @@
+[
+  {
+    "Uid": "NJB",
+    "Access_token": "wyu_LcKhXGCmWQtESiZs6nk9O0LXQ6Vt440TTySD",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-03-30T15:50:08.7207535-03:00",
+    "TimestampFinValidezToken": "2024-03-30T16:50:08.7207535-03:00"
+  },
+  {
+    "Uid": "NJB0",
+    "Access_token": "wyu_dCxgi4R3Ne1Y2mKLgt1ZWb1a8K2gkW0toCjU",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-03-30T15:50:35.4453989-03:00",
+    "TimestampFinValidezToken": "2024-03-30T16:50:35.4453989-03:00"
+  }
+]
