@@ -1,10 +1,10 @@
 [
   {
     "Uid": "NJB",
-    "Access_token": "wyu_LcKhXGCmWQtESiZs6nk9O0LXQ6Vt440TTySD",
+    "Access_token": "wyu_p1T0r1ll2fr3NKwugUpKW8Ptc6LWFK1Trn11",
     "ExpirationStatus": 1,
-    "TimestampInicioValidezToken": "2024-03-30T15:50:08.7207535-03:00",
-    "TimestampFinValidezToken": "2024-03-30T16:50:08.7207535-03:00"
+    "TimestampInicioValidezToken": "2024-04-17T19:47:41.0303496-03:00",
+    "TimestampFinValidezToken": "2024-04-17T20:47:41.0303496-03:00"
   },
   {
     "Uid": "NJB0",
@@ -12,5 +12,54 @@
     "ExpirationStatus": 1,
     "TimestampInicioValidezToken": "2024-03-30T15:50:35.4453989-03:00",
     "TimestampFinValidezToken": "2024-03-30T16:50:35.4453989-03:00"
+  },
+  {
+    "Uid": "user2_Client1",
+    "Access_token": "wyu_jFrrtpKsM3AW9RpPrf3krWOC4bTMYs20VLH4",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-04-20T21:51:15.9006068-03:00",
+    "TimestampFinValidezToken": "2024-04-20T22:51:15.9006068-03:00"
+  },
+  {
+    "Uid": "user1_Admin1",
+    "Access_token": "wyu_02v7yHdwuaDdR0EbipsrboRgU3HCY62ilVJg",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-04-17T19:39:32.4682598-03:00",
+    "TimestampFinValidezToken": "2024-04-17T20:39:32.4682598-03:00"
+  },
+  {
+    "Uid": "user4_Supplier1",
+    "Access_token": "wyu_GLtBuZoiQvouEGGxwG1SRqW6xyz00v4SkUQW",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-04-20T20:56:38.3810284-03:00",
+    "TimestampFinValidezToken": "2024-04-20T21:56:38.3810284-03:00"
+  },
+  {
+    "Uid": "5",
+    "Access_token": "wyu_hyXJWCrq2O52uRyaPMRM1wmJdFDEoc496OxZ",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-04-20T21:27:18.5289867-03:00",
+    "TimestampFinValidezToken": "2024-04-20T22:27:18.5289867-03:00"
+  },
+  {
+    "Uid": "7",
+    "Access_token": "wyu_m8AtyE6SV33i2PJuI30xkL4XRGBYJh2FWU2N",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-04-20T21:28:14.8524378-03:00",
+    "TimestampFinValidezToken": "2024-04-20T22:28:14.8524378-03:00"
+  },
+  {
+    "Uid": "user5_Worker2",
+    "Access_token": "wyu_QCBEEh9pCOl7t2FCfvd5HTv4R1QeMk09zP74",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-04-20T21:52:14.2176795-03:00",
+    "TimestampFinValidezToken": "2024-04-20T22:52:14.2176795-03:00"
+  },
+  {
+    "Uid": "user3_Worker1",
+    "Access_token": "wyu_XjGazu4GOiFktqFuYDAzBwLskuvKZ82UObRl",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-04-23T10:08:31.6821658-03:00",
+    "TimestampFinValidezToken": "2024-04-23T11:08:31.6821658-03:00"
   }
 ]

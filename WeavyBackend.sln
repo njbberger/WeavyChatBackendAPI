@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeavyChat", "WeavyChat\WeavyChat.csproj", "{F3F5A765-F928-4CC9-88C9-EF02BC159A40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeavyChat", "WeavyChat\WeavyChat.csproj", "{F3F5A765-F928-4CC9-88C9-EF02BC159A40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeavyChatMVC", "WeavyChatMVC\WeavyChatMVC.csproj", "{18B13F88-4CE5-409A-A7FB-F1655B424B57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F3F5A765-F928-4CC9-88C9-EF02BC159A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3F5A765-F928-4CC9-88C9-EF02BC159A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3F5A765-F928-4CC9-88C9-EF02BC159A40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B13F88-4CE5-409A-A7FB-F1655B424B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B13F88-4CE5-409A-A7FB-F1655B424B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B13F88-4CE5-409A-A7FB-F1655B424B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B13F88-4CE5-409A-A7FB-F1655B424B57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

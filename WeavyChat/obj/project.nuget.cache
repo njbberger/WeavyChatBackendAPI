@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5aFWABeuvh93KkyRTs7kovbDVwiGjqKHpVvIokyg8n087KfRYGBjIRWM8dGk5CSdLiC69RPLUhre1Lz26u82Dg==",
+  "dgSpecHash": "YbqgBy5Y5362843FdoMeRA6NYHbsdaTq1Iy8hIvhX6xtPWyP5nEEfRVBAQNNR+cG7PdcPsAwi7GYyAvQHYT7GA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo4\\source\\repos\\MySourceNow\\WeavyBackend\\WeavyChat\\WeavyChat.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lenovo4\\.nuget\\packages\\enums.net\\4.0.2\\enums.net.4.0.2.nupkg.sha512",
     "C:\\Users\\Lenovo4\\.nuget\\packages\\identitymodel\\6.2.0\\identitymodel.6.2.0.nupkg.sha512",
     "C:\\Users\\Lenovo4\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.16\\microsoft.aspnetcore.openapi.7.0.16.nupkg.sha512",
     "C:\\Users\\Lenovo4\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

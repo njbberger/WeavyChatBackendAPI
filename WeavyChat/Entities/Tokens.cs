@@ -20,51 +20,62 @@ namespace WeavyChat.Entities
             try
             {
                 //open tokens json file
-                //string jsonfile = File.ReadAllText(@"C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\ACTIVETOKENS.json");
-                var userAccessTokenList = await Json.ReadAsync<List<UserAccessToken>>(@"C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\ACTIVETOKENS.json");
-
+                //string jsonfile = File.ReadAllText(@".\ACTIVETOKENS.json");
+                
                 //Initialize existingToken. It will be set initially with ExpirationStatus.None
                 var OutExistingToken = new UserAccessToken();
-                
-                //var userAccessToken = new UserAccessToken();
 
-                //if (jsonfile != string.Empty)
-                if (userAccessTokenList != null && userAccessTokenList.Any())
+                if (File.Exists(@".\ACTIVETOKENS.json"))
                 {
-                    //List<UserAccessToken>? userAccessTokenLists = JsonSerializer.Deserialize<List<UserAccessToken>>(jsonfile);                    
+                    var userAccessTokenList = await Json.ReadAsync<List<UserAccessToken>>(@".\ACTIVETOKENS.json");                    
 
-                    //un usuario solo puede tener un token activo a la vez
-                    OutExistingToken = userAccessTokenList.FirstOrDefault(token => token.Uid == uid);
+                    //var userAccessToken = new UserAccessToken();
 
-                    //if (userAccessTokenList != null && userAccessTokenList.Any())
-                    //{
-                    //    userAccessToken = userAccessTokenList.FirstOrDefault(token => token.Uid == uid);
-                    //}
-                    //else
-                    //{
-                    //    userAccessToken = null;
+                    //if (jsonfile != string.Empty)
+                    if (userAccessTokenList != null && userAccessTokenList.Any())
+                    {
+                        //List<UserAccessToken>? userAccessTokenLists = JsonSerializer.Deserialize<List<UserAccessToken>>(jsonfile);                    
 
-                    //}                
-                    
-                    //if (userAccessToken is not null)
-                    //{
-                    //    //Devuelvo el token existente, sea vigente o expirado
-                    //    OutExistingToken = userAccessToken;
+                        //un usuario solo puede tener un token activo a la vez
+                        OutExistingToken = userAccessTokenList.FirstOrDefault(token => token.Uid == uid);
 
-                    //    return true;                    
-                    //}
-                    //else
-                    //{
-                    //    //No existe Token para el usuario
-                    //    Console.WriteLine($"Uid: {uid}");
-                    //    Console.WriteLine($"No existe Token para el usuario");
-                    //    return false;
-                    //}
+                        //if (userAccessTokenList != null && userAccessTokenList.Any())
+                        //{
+                        //    userAccessToken = userAccessTokenList.FirstOrDefault(token => token.Uid == uid);
+                        //}
+                        //else
+                        //{
+                        //    userAccessToken = null;
+
+                        //}                
+
+                        //if (userAccessToken is not null)
+                        //{
+                        //    //Devuelvo el token existente, sea vigente o expirado
+                        //    OutExistingToken = userAccessToken;
+
+                        //    return true;                    
+                        //}
+                        //else
+                        //{
+                        //    //No existe Token para el usuario
+                        //    Console.WriteLine($"Uid: {uid}");
+                        //    Console.WriteLine($"No existe Token para el usuario");
+                        //    return false;
+                        //}
+                    }
+                    else
+                    {
+                        OutExistingToken = null;
+
+                    }
                 }
                 else
                 {
+                    //Se crea archivo por primera vez
+                    StreamWriter file = File.CreateText(@".\ACTIVETOKENS.json");
+                    file.Close();
                     OutExistingToken = null;
-
                 }
 
                 if (OutExistingToken != null)
@@ -101,8 +112,9 @@ namespace WeavyChat.Entities
                 {
                     //***Read entire list of tokens
                     //Read file to string
-                    //var accessTokensJsonFile = File.OpenRead(@"C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\ACTIVETOKENS.json");
-                    var userAccessTokenList = await Json.ReadAsync<List<UserAccessToken>>(@"C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\ACTIVETOKENS.json");
+                    //var accessTokensJsonFile = File.OpenRead(@".\ACTIVETOKENS.json");
+                    //var userAccessTokenList = await Json.ReadAsync<List<UserAccessToken>>(@".\ACTIVETOKENS.json");
+                    var userAccessTokenList = await Json.ReadAsync<List<UserAccessToken>>(@".\ACTIVETOKENS.json");
 
                     //Deserialize from file to object
                     //var userAccessTokenList = new List<UserAccessToken>();
@@ -137,7 +149,7 @@ namespace WeavyChat.Entities
                     }
 
                     //***UPDATE token writing the entire list again
-                    using (StreamWriter file = File.CreateText(@"C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\ACTIVETOKENS.json"))
+                    using (StreamWriter file = File.CreateText(@".\ACTIVETOKENS.json"))
                     {
                         //System.Txt.Json - a LIST of tokens
                         var stream = new MemoryStream();
@@ -156,8 +168,8 @@ namespace WeavyChat.Entities
                 {
                     //***Read entire list of tokens
                     //Read file to string
-                    //string accessTokensJsonFile = File.ReadAllText(@"C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\ACTIVETOKENS.json");
-                    var userAccessTokenList = await Json.ReadAsync<List<UserAccessToken>>(@"C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\ACTIVETOKENS.json");
+                    //string accessTokensJsonFile = File.ReadAllText(@".\ACTIVETOKENS.json");
+                    var userAccessTokenList = await Json.ReadAsync<List<UserAccessToken>>(@".\ACTIVETOKENS.json");
 
                     //Deserialize from file to object
                     //var userAccessTokenLists = new List<UserAccessToken>();
@@ -181,7 +193,7 @@ namespace WeavyChat.Entities
                     }
 
                     //open file stream
-                    using (StreamWriter file = File.CreateText(@"C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\ACTIVETOKENS.json"))
+                    using (StreamWriter file = File.CreateText(@".\ACTIVETOKENS.json"))
                     {                        
                         //serialize object directly into file stream
                         //Newtonsoft

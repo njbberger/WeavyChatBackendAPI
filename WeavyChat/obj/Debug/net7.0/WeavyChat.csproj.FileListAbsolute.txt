@@ -19,6 +19,7 @@ C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.
 C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\WeavyChat.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\WeavyChat.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\WeavyChat.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\WeavyChat.sourcelink.json
 C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\staticwebassets\msbuild.WeavyChat.Microsoft.AspNetCore.StaticWebAssets.props
@@ -33,4 +34,5 @@ C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.
 C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\WeavyChat.pdb
 C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\WeavyChat.genruntimeconfig.cache
 C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\ref\WeavyChat.dll
-C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\obj\Debug\net7.0\WeavyChat.sourcelink.json
+C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\bin\Debug\net7.0\Enums.NET.dll
+C:\Users\Lenovo4\source\repos\MySourceNow\WeavyBackend\WeavyChat\bin\Debug\net7.0\ACTIVETOKENS.json
