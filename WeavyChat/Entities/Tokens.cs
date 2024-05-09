@@ -99,7 +99,7 @@ namespace WeavyChat.Entities
             {
 
                 throw new Exception("Error al intentar obtener el token de usuario desde el archivo ACTIVETOKENS.json", e);
-           }                                    
+            }                                    
         }
 
         public async Task<bool> TrySetValueAsync(UserAccessToken newUserAccessToken)

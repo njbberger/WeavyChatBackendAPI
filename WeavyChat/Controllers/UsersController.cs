@@ -63,7 +63,7 @@ namespace WeavyChat.Controllers
         [HttpGet("~/api/ListUsersAsync")]
         public async Task<UserList.OutputUserList> ListUsersAsync([FromQuery] UserList.InputUserList userListInput)
         {
-            return await _syncUser.ListUsersAsync(userListInput, _config, _ctx); ;
+            return await _syncUser.ListUsersAsync(userListInput, _config, _ctx);
         }
 
 

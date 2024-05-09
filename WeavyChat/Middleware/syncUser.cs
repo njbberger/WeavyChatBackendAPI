@@ -1,11 +1,6 @@
-﻿using Newtonsoft.Json.Linq;
-using System.Net.Http.Headers;
-using System.Net.Http;
+﻿using System.Net.Http.Headers;
 using WeavyChat.Entities;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using System.Net.Mime;
 using System.Text.Json;
-using Microsoft.AspNetCore.DataProtection.KeyManagement;
 
 namespace WeavyChat.Middleware
 {

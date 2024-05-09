@@ -64,7 +64,7 @@ namespace WeavyChat.Middleware
 
             string? queryParameters = nameof(inputListApp.contextual) + "=" + inputListApp.contextual.ToString();
 
-            if (inputListApp.type.Count() > 0)
+            if (inputListApp.type != null && inputListApp.type.Count() > 0)
             {
                 queryParameters = queryParameters + "&" + nameof(inputListApp.type) + "=" + inputListApp.type[0].ToString();
             }             

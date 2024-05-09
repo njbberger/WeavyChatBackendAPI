@@ -5,5 +5,54 @@
     "ExpirationStatus": 1,
     "TimestampInicioValidezToken": "2024-04-23T17:03:37.7895345-03:00",
     "TimestampFinValidezToken": "2024-04-23T18:03:37.7895345-03:00"
+  },
+  {
+    "Uid": "NJB",
+    "Access_token": "wyu_esz99WBuR36Ygyaq7usWNFrt8uNfqE18rW94",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-04-30T13:09:12.8918933-03:00",
+    "TimestampFinValidezToken": "2024-04-30T14:09:12.8918933-03:00"
+  },
+  {
+    "Uid": "charles",
+    "Access_token": "wyu_yo1NLzUt9QUoAUI7SF3fNBVDTrerIS07OeRv",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-05-03T19:56:52.9159285-03:00",
+    "TimestampFinValidezToken": "2024-05-03T20:56:52.9159285-03:00"
+  },
+  {
+    "Uid": "1",
+    "Access_token": "wyu_0pXnYbKVqNTURb1goPkXjnVEoiRjFF3q6O6D",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-05-06T17:41:53.7917415-03:00",
+    "TimestampFinValidezToken": "2024-05-06T18:41:53.7917415-03:00"
+  },
+  {
+    "Uid": "15",
+    "Access_token": "wyu_8JkkVUwWIEJiqqyMXzM8wO6x7kWNyu2qEl6d",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-05-06T17:44:32.6304841-03:00",
+    "TimestampFinValidezToken": "2024-05-06T18:44:32.6304841-03:00"
+  },
+  {
+    "Uid": "sn_supplier1",
+    "Access_token": "wyu_0UuDh9AbVb5ufoVejnWODodExpL64h3GXEk9",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-05-06T17:51:38.3619294-03:00",
+    "TimestampFinValidezToken": "2024-05-06T18:51:38.3619294-03:00"
+  },
+  {
+    "Uid": "sn_supplier2",
+    "Access_token": "wyu_5J8Dqlr86WTTLwdGErEXMT3tfTYTQy2mBzWQ",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-05-06T21:52:52.5096041-03:00",
+    "TimestampFinValidezToken": "2024-05-06T22:52:52.5096041-03:00"
+  },
+  {
+    "Uid": "u_manager_laserShip1",
+    "Access_token": "wyu_CBgmm9Hv2i4xNvMPTAUfD7AOzgwGPl0dpKg0",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-05-08T12:22:13.9448032-03:00",
+    "TimestampFinValidezToken": "2024-05-08T13:22:13.9448032-03:00"
   }
 ]
