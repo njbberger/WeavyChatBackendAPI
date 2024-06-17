@@ -294,7 +294,10 @@ namespace WeavyChat.Entities
             public bool is_bot { get; set; }  //false                
         }
 
-
+        public class InputDeleteAllApps
+        {
+            public List<string>? appIDs { get; set; }
+        }   
     }
 
     public class By

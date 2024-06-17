@@ -113,7 +113,15 @@ namespace WeavyChat.Middleware
 
             if (inputListConversations.type != null && inputListConversations.type.Count > 0)
             {
-                queryParameters = queryParameters + "&" + nameof(inputListConversations.type) + "=" + inputListConversations.type[0].ToString();
+                foreach (var type in inputListConversations.type)
+                {
+                    queryParameters = queryParameters + "&" + nameof(inputListConversations.type) + "=" + type;
+                }                
+            }
+
+            if (inputListConversations.count_only == true)
+            {
+                queryParameters = queryParameters + "&" + nameof(inputListConversations.count_only) + "=" + inputListConversations.count_only;
             }
 
             var response = await _httpClient.GetAsync($"{_weavyUrl}/api/conversations?{queryParameters}");
@@ -134,6 +142,45 @@ namespace WeavyChat.Middleware
 
             throw new NullReferenceException("HttpResponseMessage should not be null");
         }
+
+
+        public async Task<OutputGetConversation> GetConversationAsync(InputGetConversation inputGetConversation)
+        {
+            HttpClient _httpClient = new HttpClient();
+
+            // get members of the app
+            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _apiKey);
+            _httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+            var response = new HttpResponseMessage();
+            if (inputGetConversation.trashed)
+            {
+                string queryParameters = nameof(inputGetConversation.trashed) + "=" + inputGetConversation.trashed;
+
+                response = await _httpClient.GetAsync($"{_weavyUrl}/api/conversations/{inputGetConversation.id}?{queryParameters}");
+            }
+            else
+            {
+                response = await _httpClient.GetAsync($"{_weavyUrl}/api/conversations/{inputGetConversation.id}");
+            }            
+
+            if (response.IsSuccessStatusCode)
+            {
+                // Get conversation in OUTPUT response class
+                var newUserResponse = await response.Content.ReadFromJsonAsync<OutputGetConversation>();
+                if (newUserResponse == null)
+                {
+                    throw new NullReferenceException("HttpResponseMessage should not be null");
+                }
+                else
+                {
+                    return newUserResponse;
+                }
+            }
+
+            throw new NullReferenceException("HttpResponseMessage should not be null");
+        }
+
 
         /// <summary>
         /// Sync process to Create or Remove Conversations for the authenticated user based on updated Permited Contact List (Called from Login process or Messenger Icon Click)

@@ -46,6 +46,21 @@ namespace WeavyChat.Controllers
             return await _syncApp.ListAppsAsync(inputListApp);
         }
 
+        // GET /api/apps
+        [HttpDelete("~/api/DeleteApp")]
+        public async Task<bool> DeleteAppAsync(string appID)
+        {
+            return await _syncApp.DeleteAppAsync(appID);
+        }
+
+        // GET /api/apps
+        [HttpDelete("~/api/DeleteAllApps")]
+        public async Task<bool> DeleteAllAppsAsync([FromQuery] InputDeleteAllApps inputDeleteAllApps)
+        {
+            return await _syncApp.DeleteAllAppsAsync(inputDeleteAllApps);
+        }
+
+
         // PUT /api/apps/{app}/members/{user}
         [HttpPut("~/api/AddMember")]
         public async Task<string> AddMemberAsync([FromQuery] string AppUid, string UserNameUid, WeavyApp.Access MemberAccess)

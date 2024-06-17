@@ -54,5 +54,26 @@
     "ExpirationStatus": 1,
     "TimestampInicioValidezToken": "2024-05-08T12:22:13.9448032-03:00",
     "TimestampFinValidezToken": "2024-05-08T13:22:13.9448032-03:00"
+  },
+  {
+    "Uid": "u_lasershipclient2",
+    "Access_token": "wyu_4BNAuzZ1Kl2Nun7A61hFGNsttiC4aC0LfQrz",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-05-09T16:22:51.7849351-03:00",
+    "TimestampFinValidezToken": "2024-05-09T17:22:51.7849351-03:00"
+  },
+  {
+    "Uid": "u_lasershipclient1",
+    "Access_token": "wyu_Kd4b3nQu4fd45rmvW4U5ufziu2o38l0uQXaW",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-05-17T09:49:28.1521281-03:00",
+    "TimestampFinValidezToken": "2024-05-17T10:49:28.1521281-03:00"
+  },
+  {
+    "Uid": "u_119873645897",
+    "Access_token": "wyu_Fpy38iss18s3VVBtzb0FE8QMpIsNQy1IFTLt",
+    "ExpirationStatus": 1,
+    "TimestampInicioValidezToken": "2024-05-16T18:33:39.0366835-03:00",
+    "TimestampFinValidezToken": "2024-05-16T19:33:39.0366835-03:00"
   }
 ]

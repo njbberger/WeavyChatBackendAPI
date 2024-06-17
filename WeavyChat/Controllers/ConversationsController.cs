@@ -34,11 +34,18 @@ namespace WeavyChat.Controllers
             return await _syncConversation.CreateConversationAsync(currentUserUid, inputCreateConversation);
         }
 
-        // GET: UsersController/users
+        // GET /api/conversations
         [HttpGet("~/api/ListConversationsAsync")]
         public async Task<OutputListConversations> ListConversationsAsync(string authenticatedUserName, [FromQuery] InputListConversations inputListConversations)
         {
             return await _syncConversation.ListConversationsAsync(authenticatedUserName, inputListConversations); ;
+        }
+
+        // GET /api/conversations/{id}
+        [HttpGet("~/api/GetConversationAsync")]
+        public async Task<OutputGetConversation> GetConversationAsync([FromQuery] InputGetConversation inputGetConversation)
+        {
+            return await _syncConversation.GetConversationAsync(inputGetConversation);
         }
     }
 }
